@@ -1,0 +1,23 @@
+{
+  "name": "summarizer-module",
+  "version": "1.0.0",
+  "description": "An extensible module for generating text summaries using AI providers.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No tests specified for this module yet, but you can add Jest tests here.\" && exit 0"
+  },
+  "keywords": [
+    "summarizer",
+    "gemini-api",
+    "ai",
+    "module"
+  ],
+  "author": "Nneji Chidi Ben",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.14.0",
+    "dotenv": "^16.4.5",
+    "pdf-parse": "^1.1.1",
+    "textract": "^2.5.0"
+  }
+}
